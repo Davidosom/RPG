@@ -1,0 +1,175 @@
+
+/*corpo--------------------------------------------------------------------------------------------------------------------------------------*/
+body{
+    background-color: black ;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#linkmagias{
+    color: rgba(226, 43, 195, 0.726);
+    font-style: italic;
+    font-family: serif;
+    font-size: 17px;
+}
+#linkarmas{
+    color: rgb(189, 20, 8);
+    font-style: italic;
+    font-family: serif;
+    font-size: 17px;
+}
+#linklevels{
+    color: rgb(12, 170, 12);
+    font-style: italic;
+    font-family: serif;
+    font-size: 17px;
+}
+#linkregras{
+    color: rgb(188, 190, 33);
+    font-style: italic;
+    font-family: serif;
+    font-size: 17px;
+}
+/*corpo--------------------------------------------------------------------------------------------------------------------------------------*/
+ 
+
+/*site principal--------------------------------------------------------------------------------------------------------------------------------------*/
+#texto1{
+    color: blueviolet;
+    font-size: 18px;
+}
+#title1{
+    color: blueviolet;
+}
+/*site principal--------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Magias--------------------------------------------------------------------------------------------------------------------------------------*/
+
+#back{
+    background-color: black;
+}
+#texto4{
+    color: rgba(108, 30, 172, 0.678);
+    font-size: 25px;
+}
+#magia{
+    color: rgba(108, 30, 172, 0.678);
+    font-size: 18px;
+}
+#title2{
+    color: rgba(0, 255, 255, 0.678);
+}
+#texto2{
+    color: rgba(214, 143, 12, 0.678);
+    font-size: 25px;
+}
+#texto3{
+    color: rgba(214, 143, 12, 0.678);
+    font-size: 18px;
+}
+#qwe{
+    color: rgb(228, 59, 17);
+    font-size: 25px;
+}
+#qwer{
+    color: rgb(228, 59, 17);
+    font-size: 18px;
+}
+#magias{
+    color: rgba(0, 255, 255, 0.678);
+    
+}
+#elementais{
+    color: rgba(0, 255, 255, 0.678);
+}
+#ele{
+    color: rgba(0, 255, 255, 0.678);
+    font-size: 18px;
+}
+#naoele{
+    color: rgba(135, 50, 206, 0.801);
+}
+
+#naoelemen{
+    color: rgba(135, 50, 206, 0.801);
+    font-size: 18px;
+}
+#invoca{
+    color: rgba(212, 200, 31, 0.849);
+}
+#inv{
+    color: rgba(212, 200, 31, 0.849);
+    font-size: 18px;
+}
+#title{
+    color: rgba(81, 255, 0, 0.418);
+}
+#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa{
+    color: rgba(81, 255, 0, 0.418);
+    font-size: 18px;
+}
+
+/*Magias--------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*armas--------------------------------------------------------------------------------------------------------------------------------------*/
+#titulopagina{
+    color:  rgb(189, 20, 8);
+}
+#textoarmas1{
+    color:  rgb(189, 20, 8);
+    font-size: 18px;
+}
+#titleArmas2{
+    color:  rgb(189, 20, 8);
+}
+#TextoArmas2{
+    color: rgb(189, 20, 8);
+    font-size: 18px;
+}
+/*armas--------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*levels--------------------------------------------------------------------------------------------------------------------------------------*/
+#titleLevels{
+    color: rgb(12, 170, 12);
+}
+#textoL1{
+    color: rgb(12, 170, 12);
+    font-size: 20px;
+}
+#textoL2{
+    color: rgb(12, 170, 12);
+    font-size: 18px;
+}
+#titleL2{
+    color: rgb(12, 170, 12);
+}
+/*levels--------------------------------------------------------------------------------------------------------------------------------------*/
+ 
+/*Regras--------------------------------------------------------------------------------------------------------------------------------------*/
+#titleR1{
+    color: rgb(188, 190, 33);
+}
+#textoR1{
+    color: rgb(188, 190, 33);
+    font-size: 20px;
+}
+#titleR2{
+    color: rgb(188, 190, 33);
+}
+#listaR1{
+    color: rgb(188, 190, 33);
+    font-size: 18px;
+}
+.textopiscando{
+    color: rgb(18, 94, 160);
+    font-size: 20px;
+    animation: multicolor 2s infinite;
+}
+@keyframes multicolor{
+    0% (color: red)
+}

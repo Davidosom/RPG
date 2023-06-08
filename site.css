@@ -1,113 +1,157 @@
-
 /*corpo--------------------------------------------------------------------------------------------------------------------------------------*/
-body{
-    background-color: black ;
+body {
+    background-color: black;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-around;
 }
 
-#linkmagias{
+#linkmagias {
     color: rgba(226, 43, 195, 0.726);
     font-style: italic;
     font-family: serif;
     font-size: 17px;
 }
-#linkarmas{
+
+#linkarmas {
     color: rgb(189, 20, 8);
     font-style: italic;
     font-family: serif;
     font-size: 17px;
 }
-#linklevels{
+
+#linklevels {
     color: rgb(12, 170, 12);
     font-style: italic;
     font-family: serif;
     font-size: 17px;
 }
-#linkregras{
+
+#linkregras {
     color: rgb(188, 190, 33);
     font-style: italic;
     font-family: serif;
     font-size: 17px;
 }
+
+#linkrecursos {
+    color: rgb(221, 71, 12);
+    font-style: italic;
+    font-family: serif;
+    font-size: 17px;
+}
+
+#linkcombate {
+    color: red;
+    font-style: italic;
+    font-family: serif;
+    font-size: 17px;
+}
+
+#linkclasses {
+    color: rgb(17, 40, 138);
+    font-style: italic;
+    font-family: serif;
+    font-size: 17px;
+}
+
 /*corpo--------------------------------------------------------------------------------------------------------------------------------------*/
- 
+
 
 /*site principal--------------------------------------------------------------------------------------------------------------------------------------*/
-#texto1{
+#texto1 {
     color: blueviolet;
     font-size: 18px;
 }
-#title1{
+
+#title1 {
     color: blueviolet;
 }
+
 /*site principal--------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 /*Magias--------------------------------------------------------------------------------------------------------------------------------------*/
 
-#back{
+#back {
     background-color: black;
 }
-#texto4{
+
+#texto4 {
     color: rgba(108, 30, 172, 0.678);
     font-size: 25px;
 }
-#magia{
+
+#magia {
     color: rgba(108, 30, 172, 0.678);
     font-size: 18px;
 }
-#title2{
+
+#title2 {
     color: rgba(0, 255, 255, 0.678);
 }
-#texto2{
+
+#texto2 {
     color: rgba(214, 143, 12, 0.678);
     font-size: 25px;
 }
-#texto3{
+
+#texto3 {
     color: rgba(214, 143, 12, 0.678);
     font-size: 18px;
 }
-#qwe{
+
+#qwe {
     color: rgb(228, 59, 17);
     font-size: 25px;
 }
-#qwer{
+
+#qwer {
     color: rgb(228, 59, 17);
     font-size: 18px;
 }
-#magias{
+
+#magias {
     color: rgba(0, 255, 255, 0.678);
-    
+
 }
-#elementais{
+
+#elementais {
+    width: min-content 16px;
+    width: max-content 18px;
     color: rgba(0, 255, 255, 0.678);
 }
-#ele{
+
+#ele {
     color: rgba(0, 255, 255, 0.678);
     font-size: 18px;
 }
-#naoele{
+
+#naoele {
     color: rgba(135, 50, 206, 0.801);
 }
 
-#naoelemen{
+#naoelemen {
     color: rgba(135, 50, 206, 0.801);
     font-size: 18px;
 }
-#invoca{
+
+#invoca {
     color: rgba(212, 200, 31, 0.849);
 }
-#inv{
+
+#inv {
     color: rgba(212, 200, 31, 0.849);
     font-size: 18px;
 }
-#title{
+
+#title {
     color: rgba(81, 255, 0, 0.418);
 }
-#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa{
+
+#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa {
     color: rgba(81, 255, 0, 0.418);
     font-size: 18px;
 }
@@ -116,52 +160,69 @@ body{
 
 
 /*armas--------------------------------------------------------------------------------------------------------------------------------------*/
-#titulopagina{
-    color:  rgb(189, 20, 8);
+#titulopagina {
+    color: rgb(189, 20, 8);
 }
-#textoarmas1{
-    color:  rgb(189, 20, 8);
-    font-size: 18px;
-}
-#titleArmas2{
-    color:  rgb(189, 20, 8);
-}
-#TextoArmas2{
+
+#textoarmas1 {
     color: rgb(189, 20, 8);
     font-size: 18px;
 }
+
+#titleArmas2 {
+    color: rgb(189, 20, 8);
+}
+
+#TextoArmas2 {
+    color: rgb(189, 20, 8);
+    font-size: 18px;
+}
+#titleArmasCorpo1{
+    color: rgb(189, 20, 8);
+}
+#armas-corpo-a-corpo{
+    color: rgb(189, 20, 8);
+}
+
 /*armas--------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 /*levels--------------------------------------------------------------------------------------------------------------------------------------*/
-#titleLevels{
+#titleLevels {
     color: rgb(12, 170, 12);
 }
-#textoL1{
+
+#textoL1 {
     color: rgb(12, 170, 12);
     font-size: 20px;
 }
-#textoL2{
+
+#textoL2 {
     color: rgb(12, 170, 12);
     font-size: 18px;
 }
-#titleL2{
+
+#titleL2 {
     color: rgb(12, 170, 12);
 }
+
 /*levels--------------------------------------------------------------------------------------------------------------------------------------*/
- 
+
 /*Regras--------------------------------------------------------------------------------------------------------------------------------------*/
-#titleR1{
+#titleR1 {
     color: rgb(188, 190, 33);
 }
-#textoR1{
+
+#textoR1 {
     color: rgb(188, 190, 33);
     font-size: 20px;
 }
-#titleR2{
+
+#titleR2 {
     color: rgb(188, 190, 33);
 }
-#listaR1{
+
+#listaR1 {
     color: rgb(188, 190, 33);
     font-size: 18px;
 }
@@ -284,7 +345,87 @@ body{
 #LImis {
     color: rgb(3, 3, 3);
 }
-#mist{
+
+#mist {
     display: flex;
     justify-content: center;
+}
+
+/*recursos--------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Combate--------------------------------------------------------------------------------------------------------------------------------------*/
+#titleCombate1 {
+    color: rgb(230, 17, 17);
+}
+
+#textoCombate1 {
+    color: rgb(230, 17, 17);
+    font-size: 23px;
+}
+
+#ulCombate {
+    color: rgb(230, 17, 17);
+    font-size: 20px
+}
+
+/*Combate--------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Classes--------------------------------------------------------------------------------------------------------------------------------------*/
+#titleClasses1{
+    color: rgb(17, 40, 138);
+}
+#textoClasses1{
+    color: rgb(17, 40, 138);
+    font-size: 23px;
+}
+#ladrao{
+    color: rgb(21, 21, 143);
+    font-size: 20px;
+}
+#lutador{
+    color: rgb(104, 29, 6);
+    font-size: 20px;
+}
+#Atirador{
+    color: rgb(11, 216, 216);
+    font-size: 20px;
+}
+#Mago{
+    color: rgb(164, 32, 204);
+    font-size: 20px;
+}
+#Espadachim{
+    color: rgb(99, 99, 99);
+    font-size: 20px;
+}
+#Druida{
+    color: rgb(4, 78, 23);
+    font-size: 20px;
+}
+#Berserker{
+    color: rgb(194, 17, 17);
+    font-size: 20px;
+}
+#Sniper{
+    color: rgb(194, 168, 17);
+    font-size: 20px;
+}
+#Engenheiro{
+    color: rgb(197, 107, 23);
+    font-size: 20px;
+}
+#Bardo{
+    color: rgb(142, 60, 150);
+    font-size: 20px;
+}
+#Healer{
+    color: rgb(36, 189, 15);
+    font-size: 20px;
+}
+#Emo{
+    color: rgb(11, 12, 12);
+    font-size: 20px;
+}
+#textoCL{
+    color: rgb(1, 2, 2);
 }

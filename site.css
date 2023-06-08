@@ -165,11 +165,126 @@ body{
     color: rgb(188, 190, 33);
     font-size: 18px;
 }
-.textopiscando{
-    color: rgb(18, 94, 160);
-    font-size: 20px;
-    animation: multicolor 2s infinite;
+
+/*recursos--------------------------------------------------------------------------------------------------------------------------------------*/
+.container {
+    display: flex;
+    justify-content: space-around;
 }
-@keyframes multicolor{
-    0% (color: red)
+
+#titleRE1 {
+    color: rgb(221, 71, 12);
+}
+
+.rainbow {
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+
+    10% {
+        color: orange;
+    }
+
+    20% {
+        color: yellow;
+    }
+
+    30% {
+        color: green;
+    }
+
+    40% {
+        color: greenyellow;
+
+    }
+
+    50% {
+        color: aqua;
+    }
+
+    60% {
+        color: blue;
+    }
+
+    70% {
+        color: blueviolet;
+    }
+
+    80% {
+        color: indigo;
+    }
+
+    90% {
+        color: violet;
+    }
+
+    100% {
+        color: rgb(189, 20, 8);
+    }
+
+}
+
+#titleRE2 {
+    color: rgb(221, 71, 12);
+}
+
+#textoRE1 {
+    color: rgb(221, 71, 12);
+    font-size: 18px;
+}
+
+#comuns {
+    color: gray;
+}
+
+#LIcomun {
+    color: gray;
+}
+
+#incomuns {
+    color: rgb(102, 165, 8);
+}
+
+#LIincomun {
+    color: rgb(102, 165, 8);
+}
+
+#raro {
+    color: aqua;
+}
+
+#LIraro {
+    color: aqua;
+}
+
+#épico {
+    color: purple;
+}
+
+#LIépico {
+    color: purple;
+}
+
+#lendário {
+    color: orange;
+}
+
+#LIlendário {
+    color: orange;
+}
+
+#mis {
+    color: rgb(3, 3, 3);
+}
+
+#LImis {
+    color: rgb(3, 3, 3);
+}
+#mist{
+    display: flex;
+    justify-content: center;
 }

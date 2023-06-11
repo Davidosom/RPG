@@ -177,10 +177,12 @@ body {
     color: rgb(189, 20, 8);
     font-size: 18px;
 }
-#titleArmasCorpo1{
+
+#titleArmasCorpo1 {
     color: rgb(189, 20, 8);
 }
-#armas-corpo-a-corpo{
+
+#armas-corpo-a-corpo {
     color: rgb(189, 20, 8);
 }
 
@@ -368,64 +370,145 @@ body {
     font-size: 20px
 }
 
+#EstilosDeCombate {
+    color: rgb(230, 17, 17);
+}
+
+#textoCombate2 {
+    color: rgb(230, 17, 17);
+    font-size: 20px;
+}
+
+#karatêsimples {
+    color: rgb(194, 201, 206);
+}
+
+#Listakaratesimples {
+    color: rgb(194, 201, 206);
+    font-size: 18px;
+}
+
+#karatêmedio {
+    color: rgb(119, 115, 115);
+}
+
+#Listakaratemedio {
+    color: rgb(119, 115, 115);
+    font-size: 18px;
+}
+
+#Karatêavançado {
+    color: rgb(54, 54, 54);
+}
+
+#Listakarateavançado {
+    color: rgb(54, 54, 54);
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+#KungFuSimples {
+    color: rgb(223, 223, 113);
+}
+
+#ListaKungFuSimples {
+    color: rgb(223, 223, 113);
+    font-size: 18px;
+}
+#KungFuMédio{
+    color: rgb(141, 141, 24);
+
+}
+#ListaKungFuMédio{
+    color: rgb(141, 141, 24);
+    font-size: 18px;
+}
+#KungFuAvançado{
+    color: rgb(221, 221, 4);
+}
+#ListaKungFuAvançado{
+    color: rgb(221, 221, 4);
+    font-size: 18px;
+}
 /*Combate--------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*Classes--------------------------------------------------------------------------------------------------------------------------------------*/
-#titleClasses1{
+#titleClasses1 {
     color: rgb(17, 40, 138);
 }
-#textoClasses1{
+
+#textoClasses1 {
     color: rgb(17, 40, 138);
     font-size: 23px;
 }
-#ladrao{
+
+#ladrao {
     color: rgb(21, 21, 143);
     font-size: 20px;
 }
-#lutador{
+
+#lutador {
     color: rgb(104, 29, 6);
     font-size: 20px;
 }
-#Atirador{
+
+#Atirador {
     color: rgb(11, 216, 216);
     font-size: 20px;
 }
-#Mago{
+
+#Mago {
     color: rgb(164, 32, 204);
     font-size: 20px;
 }
-#Espadachim{
+
+#Espadachim {
     color: rgb(99, 99, 99);
     font-size: 20px;
 }
-#Druida{
+
+#Druida {
     color: rgb(4, 78, 23);
     font-size: 20px;
 }
-#Berserker{
+
+#Berserker {
     color: rgb(194, 17, 17);
     font-size: 20px;
 }
-#Sniper{
+
+#Sniper {
     color: rgb(194, 168, 17);
     font-size: 20px;
 }
-#Engenheiro{
+
+#Engenheiro {
     color: rgb(197, 107, 23);
     font-size: 20px;
 }
-#Bardo{
+
+#Bardo {
     color: rgb(142, 60, 150);
     font-size: 20px;
 }
-#Healer{
+
+#Healer {
     color: rgb(36, 189, 15);
     font-size: 20px;
 }
-#Emo{
+
+#Emo {
     color: rgb(11, 12, 12);
     font-size: 20px;
 }
-#textoCL{
+
+#textoCL {
     color: rgb(1, 2, 2);
 }

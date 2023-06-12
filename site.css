@@ -410,10 +410,12 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
 .container {
     display: flex;
     justify-content: space-around;
 }
+
 #KungFuSimples {
     color: rgb(223, 223, 113);
 }
@@ -422,21 +424,52 @@ body {
     color: rgb(223, 223, 113);
     font-size: 18px;
 }
-#KungFuMédio{
+
+#KungFuMédio {
     color: rgb(141, 141, 24);
 
 }
-#ListaKungFuMédio{
+
+#ListaKungFuMédio {
     color: rgb(141, 141, 24);
     font-size: 18px;
 }
-#KungFuAvançado{
+
+#KungFuAvançado {
     color: rgb(221, 221, 4);
 }
-#ListaKungFuAvançado{
+
+#ListaKungFuAvançado {
     color: rgb(221, 221, 4);
     font-size: 18px;
 }
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+#Taekwondo {
+    color: rgb(216, 62, 62);
+}
+#ListaTaekwondo {
+    color: rgb(216, 62, 62);
+    font-size: 18px;
+}
+#Kickboxing {
+    color: rgb(23, 97, 167);
+}
+#ListaKickboxing {
+    color: rgb(23, 97, 167);
+    font-size: 18px;
+}
+#Boxing {
+    color: rgb(240, 12, 12);
+}
+#ListaBoxing {
+    color: rgb(240, 12, 12);
+    font-size: 18px;
+}
+
+
 /*Combate--------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*Classes--------------------------------------------------------------------------------------------------------------------------------------*/

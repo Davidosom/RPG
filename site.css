@@ -178,6 +178,15 @@ body {
     font-size: 18px;
 }
 
+#titleArmas3 {
+    color: rgb(189, 20, 8);
+}
+
+#TextoArmas3 {
+    color: rgb(189, 20, 8);
+    font-size: 18px;
+}
+
 #titleArmasCorpo1 {
     color: rgb(189, 20, 8);
 }
@@ -443,27 +452,34 @@ body {
     color: rgb(221, 221, 4);
     font-size: 18px;
 }
+
 .container {
     display: flex;
     justify-content: space-around;
 }
+
 #Taekwondo {
     color: rgb(216, 62, 62);
 }
+
 #ListaTaekwondo {
     color: rgb(216, 62, 62);
     font-size: 18px;
 }
+
 #Kickboxing {
     color: rgb(23, 97, 167);
 }
+
 #ListaKickboxing {
     color: rgb(23, 97, 167);
     font-size: 18px;
 }
+
 #Boxing {
     color: rgb(240, 12, 12);
 }
+
 #ListaBoxing {
     color: rgb(240, 12, 12);
     font-size: 18px;

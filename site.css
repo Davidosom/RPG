@@ -20,6 +20,8 @@ footer {
     justify-content: space-around;
 }
 
+
+
 #linkmagias {
     color: rgba(226, 43, 195, 0.726);
     font-style: italic;
@@ -77,7 +79,7 @@ footer {
     display: flex;
     justify-content: space-around;
 }
-      
+
 /*corpo--------------------------------------------------------------------------------------------------------------------------------------*/
 
 
@@ -100,81 +102,161 @@ footer {
     background-color: black;
 }
 
-#texto4 {
-    color: rgba(108, 30, 172, 0.678);
-    font-size: 25px;
+@media only screen and (max-width: 600px) {
+    #texto4 {
+        color: rgba(108, 30, 172, 0.678);
+        font-size: 18px;
+    }
+
+    #magia {
+        color: rgba(108, 30, 172, 0.678);
+        font-size: 12px;
+    }
+
+    #title2 {
+        color: rgba(0, 255, 255, 0.678);
+    }
+
+    #texto2 {
+        color: rgba(214, 143, 12, 0.678);
+        font-size: 18px;
+    }
+
+    #texto3 {
+        color: rgba(214, 143, 12, 0.678);
+        font-size: 12px;
+    }
+
+    #qwe {
+        color: rgb(228, 59, 17);
+        font-size: 18px;
+    }
+
+    #qwer {
+        color: rgb(228, 59, 17);
+        font-size: 12px;
+    }
+
+    #magias {
+        color: rgba(0, 255, 255, 0.678);
+
+    }
+
+    #elementais {
+        width: min-content 16px;
+        width: max-content 18px;
+        color: rgba(0, 255, 255, 0.678);
+    }
+
+    #ele {
+        color: rgba(0, 255, 255, 0.678);
+        font-size: 12px;
+    }
+
+    #naoele {
+        color: rgba(135, 50, 206, 0.801);
+    }
+
+    #naoelemen {
+        color: rgba(135, 50, 206, 0.801);
+        font-size: 12px;
+    }
+
+    #invoca {
+        color: rgba(212, 200, 31, 0.849);
+    }
+
+    #inv {
+        color: rgba(212, 200, 31, 0.849);
+        font-size: 12px;
+    }
+
+    #title {
+        color: rgba(81, 255, 0, 0.418);
+    }
+
+    #aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa {
+        color: rgba(81, 255, 0, 0.418);
+        font-size: 12px;
+    }
 }
+@media only screen and (min-width: 768px) {
+    #texto4 {
+        color: rgba(108, 30, 172, 0.678);
+        font-size: 25px;
+    }
 
-#magia {
-    color: rgba(108, 30, 172, 0.678);
-    font-size: 18px;
-}
+    #magia {
+        color: rgba(108, 30, 172, 0.678);
+        font-size: 18px;
+    }
 
-#title2 {
-    color: rgba(0, 255, 255, 0.678);
-}
+    #title2 {
+        color: rgba(0, 255, 255, 0.678);
+    }
 
-#texto2 {
-    color: rgba(214, 143, 12, 0.678);
-    font-size: 25px;
-}
+    #texto2 {
+        color: rgba(214, 143, 12, 0.678);
+        font-size: 25px;
+    }
 
-#texto3 {
-    color: rgba(214, 143, 12, 0.678);
-    font-size: 18px;
-}
+    #texto3 {
+        color: rgba(214, 143, 12, 0.678);
+        font-size: 18px;
+    }
 
-#qwe {
-    color: rgb(228, 59, 17);
-    font-size: 25px;
-}
+    #qwe {
+        color: rgb(228, 59, 17);
+        font-size: 25px;
+    }
 
-#qwer {
-    color: rgb(228, 59, 17);
-    font-size: 18px;
-}
+    #qwer {
+        color: rgb(228, 59, 17);
+        font-size: 18px;
+    }
 
-#magias {
-    color: rgba(0, 255, 255, 0.678);
+    #magias {
+        color: rgba(0, 255, 255, 0.678);
 
-}
+    }
 
-#elementais {
-    width: min-content 16px;
-    width: max-content 18px;
-    color: rgba(0, 255, 255, 0.678);
-}
+    #elementais {
+        width: min-content 16px;
+        width: max-content 18px;
+        color: rgba(0, 255, 255, 0.678);
+    }
 
-#ele {
-    color: rgba(0, 255, 255, 0.678);
-    font-size: 18px;
-}
+    #ele {
+        color: rgba(0, 255, 255, 0.678);
+        font-size: 18px;
+    }
 
-#naoele {
-    color: rgba(135, 50, 206, 0.801);
-}
+    #naoele {
+        color: rgba(135, 50, 206, 0.801);
+    }
 
-#naoelemen {
-    color: rgba(135, 50, 206, 0.801);
-    font-size: 18px;
-}
+    #naoelemen {
+        color: rgba(135, 50, 206, 0.801);
+        font-size: 18px;
+    }
 
-#invoca {
-    color: rgba(212, 200, 31, 0.849);
-}
+    #invoca {
+        color: rgba(212, 200, 31, 0.849);
+    }
 
-#inv {
-    color: rgba(212, 200, 31, 0.849);
-    font-size: 18px;
-}
+    #inv {
+        color: rgba(212, 200, 31, 0.849);
+        font-size: 18px;
+    }
 
-#title {
-    color: rgba(81, 255, 0, 0.418);
-}
+    #title {
+        color: rgba(81, 255, 0, 0.418);
+    }
 
-#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa {
-    color: rgba(81, 255, 0, 0.418);
-    font-size: 18px;
+    #aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa {
+        color: rgba(81, 255, 0, 0.418);
+        font-size: 18px;
+    }
 }
 
 /*Magias--------------------------------------------------------------------------------------------------------------------------------------*/
@@ -582,6 +664,7 @@ footer {
 #textoCL {
     color: rgb(1, 2, 2);
 }
+
 #titleItens {
     color: rgb(41, 32, 43);
 }

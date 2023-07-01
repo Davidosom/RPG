@@ -57,6 +57,15 @@ body {
     font-size: 17px;
 }
 
+#linkitens {
+    color: rgb(41, 32, 43);
+    font-style: italic;
+    font-family: serif;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+}
+      
 /*corpo--------------------------------------------------------------------------------------------------------------------------------------*/
 
 
@@ -560,4 +569,11 @@ body {
 
 #textoCL {
     color: rgb(1, 2, 2);
+}
+#titleItens {
+    color: rgb(41, 32, 43);
+}
+
+.TextoItensMag {
+    color: rgb(41, 32, 43);
 }

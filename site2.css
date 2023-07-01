@@ -2,42 +2,74 @@ body {
     background-color: black;
 }
 
-#titleItens1 {
-    color: rgb(41, 32, 43);
-}
-
-.TextoItensMag {
-    color: rgb(41, 32, 43);
-    font-size: 20px;
-}
-
-#tabelaItens {
-    color: rgb(71, 35, 80);
-    font-size: 20px;
-    background-color: rgb(121, 121, 121);
-    padding: 0px;
-    line-height: 34px;
-}
-
-#tabelaItens2 {
-    color: rgb(71, 35, 80);
-    font-size: 20px;
-    background-color: rgb(121, 121, 121);
-    padding: 0px;
-    line-height: 34px;
-}
-
-#tabelaItens3 {
-    color: rgb(71, 35, 80);
-    font-size: 20px;
-    background-color: rgb(121, 121, 121);
-    padding: 0px;
-    line-height: 34px;
-}
-
 .container {
     display: flex;
     justify-content: space-around;
+}
+    #titleItens1 {
+        color: rgb(41, 32, 43);
+    }
+@media only screen and (max-width: 600px) {
+
+    .TextoItensMag {
+        color: rgb(41, 32, 43);
+        font-size: 12px;
+    }
+
+    #tabelaItens {
+        color: rgb(71, 35, 80);
+        font-size: 12px;
+        background-color: rgb(121, 121, 121);
+        padding: 0px;
+        line-height: 26px;
+    }
+
+    #tabelaItens2 {
+        color: rgb(71, 35, 80);
+        font-size: 12px;
+        background-color: rgb(121, 121, 121);
+        padding: 0px;
+        line-height: 26px;
+    }
+
+    #tabelaItens3 {
+        color: rgb(71, 35, 80);
+        font-size: 12px;
+        background-color: rgb(121, 121, 121);
+        padding: 0px;
+        line-height: 26px;
+    }
+}
+@media only screen and (min-width: 768px) {
+
+    .TextoItensMag {
+        color: rgb(41, 32, 43);
+        font-size: 20px;
+    }
+
+    #tabelaItens {
+        color: rgb(71, 35, 80);
+        font-size: 20px;
+        background-color: rgb(121, 121, 121);
+        padding: 0px;
+        line-height: 34px;
+    }
+
+    #tabelaItens2 {
+        color: rgb(71, 35, 80);
+        font-size: 20px;
+        background-color: rgb(121, 121, 121);
+        padding: 0px;
+        line-height: 34px;
+    }
+
+    #tabelaItens3 {
+        color: rgb(71, 35, 80);
+        font-size: 20px;
+        background-color: rgb(121, 121, 121);
+        padding: 0px;
+        line-height: 34px;
+    }
 }
 
 footer {

@@ -3,6 +3,18 @@ body {
     background-color: black;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    background-color: black;
+    padding: 0px;
+    text-align: center;
+    font-size: 25px;
+    color: blueviolet;
+}
+
 .container {
     display: flex;
     justify-content: space-around;

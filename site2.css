@@ -39,6 +39,7 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
 footer {
     position: fixed;
     bottom: 0;
@@ -49,4 +50,4 @@ footer {
     text-align: center;
     font-size: 25px;
     color: rgb(71, 35, 80);
-  }
+}

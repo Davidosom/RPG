@@ -16,7 +16,7 @@
 
         .tooltip .tooltiptext {
             visibility: hidden;
-            width: 30em;
+            width: 250px;
             background-color: currentColor;
             font-size: 17px;
             font-weight: 10px;
@@ -33,6 +33,33 @@
         .tooltip:hover .tooltiptext {
             visibility: visible;
         }
+
+        /*tootip 2*/
+        .tooltip2 {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted Oblack;
+        }
+
+        .tooltip2 .tooltiptext2 {
+            visibility: hidden;
+            width: 30em;
+            background-color: currentColor;
+            font-size: 17px;
+            font-weight: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: start;
+            border-radius: 10px;
+            padding: 5px 0;
+
+            /*Position the tooltip" */
+            position: absolute;
+            z-index: 1;
+        }
+
+        .tooltip2:hover .tooltiptext2 {
+            visibility: visible;
+        }
     </style>
 </head>
 
@@ -40,165 +67,424 @@
     <h1 id="titleClasses1">§ Classes</h1>
     <p id="textoClasses1">No RPG temos diferentes tipos de classes para diferentes tipos de pessos montarem suas <br>
         estrategias e as classes que temos são:</p>
-    <div class="tooltip" id="ladrao">§ Ladrão / <div class="tooltip" id="ladrao">Habilidades:</div> 
+    <p id="ladrao">§ Ladrão</p>
+    <div class="tooltip" id="ladrao">Status
         <span class="tooltiptext">
             <p id="textoCL">
                 +Pistola/Revólver<br>
                 +2 dex<br>
-                +2 carisma <br>
-                - 2 for <br>
+                +2 car <br>
+                -2 for <br>
                 -7 hp <br>
-                - 2 sab <br>
-
-        § Habilidade nível 5: <br>
-        • Hábil (passiva): O jogador pode usar uma faca e uma pistola sem desvantagem. <br>
-        § Habilidade nível 30: <br>
-        • Bom roubo (ativa): O jogador pode roubar um item se tirar um número maior que a percepção do alvo. <br>
-        § Habilidade nível 50: <br>
-        • La casa de papel (passiva): O jogador pode usar duas pistolas ou uma pistola e uma submetralhadora e disparar <br>
-        uma vez com cada. <br>
-</span></p>
+                -2 sab <br></p>
+        </span>
+    </div>
+    <div class="tooltip2" id="ladrao">
+        <p id="ladrao">/ Habilidades</p>
+        <span class="tooltiptext2">
+            <p id="textoCLH">
+                § Habilidade nível 5: <br>
+                • Hábil (passiva): O jogador pode usar uma faca e uma pistola sem desvantagem. <br>
+                § Habilidade nível 30: <br>
+                • Bom roubo (ativa): O jogador pode roubar um item se tirar um número maior que a percepção do alvo.
+                <br>
+                § Habilidade nível 50: <br>
+                • La casa de papel (passiva): O jogador pode usar duas pistolas ou uma pistola e uma submetralhadora e
+                disparar uma vez com cada.
+            </p>
+        </span>
     </div>
     <br>
     <br>
     <br>
-    <div class="tooltip" id="lutador">§ Lutador
+    <p id="lutador">§ Lutador</p>
+    <div class="tooltip" id="lutador">Status
         <span class="tooltiptext">
             <p id="textoCL">
-                +12 Hp <br>
-                +1 dex<br>
-                +3 for<br>
-                -50mp<br>
-                -2 int<br>
-                -2 sab<br></p>
-
+                +18 Hp <br>
+                +1 dex <br>
+                +3 for <br>
+                -50mp <br>
+                -2 car <br>
+                -2 sab <br>
+            </p>
+        </span>
+    </div>
+    <div class="tooltip2" id="lutador">
+        <p id="lutador">/ Habilidades</p>
+        <span class="tooltiptext2">
+            <p id="textoCLH">
+                § Habilidade nível 5: <br>
+                • Soco pesado (ativa): O jogador dá um ataque (físico) com mais 1.6x mais dano <br>
+                § Habilidade nível 30: <br>
+                • Ponto fraco (ativa): O jogador pode gastar 20 de mana para ter um acerto crítico garantido (somente se
+                <br>
+                for ataque físico). <br>
+                § Habilidade nível 50: <br>
+                • Barragem doentia (ativa): O jogador pode disparar 1d12 (se for 1) de golpes físicos em um único alvo.
+                <br>
+            </p>
+        </span>
     </div>
     <br>
     <br>
     <br>
-    <div class="tooltip" id="Atirador">§ Atirador
+    <p id="Atirador">§ Atirador</p>
+    <div class="tooltip" id="Atirador">Status
         <span class="tooltiptext">
             <p id="textoCL">
-                +2 dex<br>
-                + Arma média qualquer <br>
-                -10 mp<br>
-                -2 for<br>
-                -7 carisma<br></p>
+                +2 dex <br>
+                +2 con <br>
+                +Metralhadora/Submetralhadora <br>
+                -16 mp <br>
+                -2 for <br>
+                -2 car <br>
+            </p>
+        </span>
+    </div>
+    <div class="tooltip2" id="Atirador">
+        <p id="Atirador">/ Habilidades</p>
+        <span class="tooltiptext2">
+            <p id="textoCLH">
+                § Habilidade nível 5: <br>
+                • Sem erro (passiva): O jogador pode dar dois disparos sem desvantagem. <br>
+                § Habilidade nível 30: <br>
+                • Em forma (ativa): O jogador pode jogar uma granada e atirar no mesmo round, mas não se fazer isso ele
+                <br>
+                não poderá se mover. <br>
+                § Habilidade nível 55: <br>
+                • Atiro sem pensar (ativa): O jogador pode disparar 1d20 de tiros sem desvantagem. <br>
+            </p>
+        </span>
     </div>
     <br>
     <br>
     <br>
-    <div class="tooltip" id="Mago">§ Mago
+    <p id="Mago">§ Mago</p>
+    <div class="tooltip" id="Mago">Status
         <span class="tooltiptext">
             <p id="textoCL">
                 +200mp<br>
-                +3 sab<br>
-                +3 int<br>
-                +Uma magia de Tier<br>
-                -10 Hp<br>
-                -4 dex<br>
-                -5 for<br></p>
+                +2 sab<br>
+                +2 int<br>
+                +2 magias Tier 1 e 1 Tier 2.<br>
+                -10 Hp <br>
+                -2 des <br>
+                -2 for <br>
+            </p>
+        </span>
+    </div>
+    <div class="tooltip2" id="Mago">
+        <p id="Mago">/ Habilidades</p>
+        <span class="tooltiptext2">
+            <p id="textoCLH">
+                § Habilidade nível 5: <br>
+                • Custo benefício (passiva): Ao usar ingredientes, o jogador tem 7% de chance de não gastar os <br>
+                ingredientes.<br>
+                § Habilidade nível 30 (passiva):<br>
+                • Economia de mana: Se o jogador tirar um crítico na magia não irá gastar mana nem recurso.<br>
+                § Habilidade nível 60:<br>
+                • Império mágico (ativa): O jogador pode disparar 1d4 de uma única magia cooldown de 4 rounds.<br>
+                sem desvantagem. <br>
+            </p>
+        </span>
     </div>
     <br>
     <br>
     <br>
-    <div class="tooltip" id="Espadachim">§ Espadachim
+    <p id="Espadachim">§ Espadachim</p>
+    <div class="tooltip" id="Espadachim">Status
         <span class="tooltiptext">
             <p id="textoCL">
-                +Espada média, curta<br>
-                +3 Hp<br>
-                +2 dex<br>
-                -3 sab<br>
-                -Desvantagem em armas de fogo<br>
-                -2 int<br></p>
+                +Espada<br>
+                +6 Hp<br>
+                +2 des<br>
+                +2 for<br>
+                -2 sab<br>
+                -2 int<br>
+                -Desvantagem em armas de fogo <br>
+            </p>
+        </span>
+    </div>
+    <div class="tooltip2" id="Espadachim"> 
+        <p id="Espadachim">/ Habilidades</p>
+        <span class="tooltiptext2">
+            <p id="textoCLH">
+                § Habilidade nível 5:<br>
+                • Corte especializado (passiva): Garante +2 quando for acertar um inimigo.<br>
+                § Habilidade nível 30:<br>
+                • Corte largo (ativa): Permite que o corte do jogador acerte até 3 inimigos de uma vez e dê +1d10 de<br>
+                dano.<br>
+                § Habilidade nível 55:<br>
+                • Corte celestial (ativa): Permite que o jogador gaste 50 de mana para dar um corte insanamente
+                forte<br>
+                que dê 5x a mais de dano em um alvo(cooldown de 10 rounds).<br>
+            </p>
+        </span>
     </div>
     <br>
     <br>
     <br>
-    <div class="tooltip" id="Druida">§ Druida
+    <p id="Druida">§ Druida</p>
+    <div class="tooltip" id="Druida">Status
         <span class="tooltiptext">
             <p id="textoCL">
                 +200 mp<br>
-                +5 sab<br>
-                +3 int<br>
-                -3 dex<br>
-                -5 Hp<br>
-                - Desvantagem em armas de fogo<br></p>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div class="tooltip" id="Berserker">§ Bárbaro/Berserker
-        <span class="tooltiptext">
-            <p id="textoCL">
-                +9 Hp<br>
-                +Fúria (a do D&D)<br>
-                +5 Def<br>
-                -4 int<br>
-                -4 sab<br>
-                -90% de chance de ser viciado em batalha ou bebida <br></p>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div class="tooltip" id="Sniper">§ Sniper
-        <span class="tooltiptext">
-            <p id="textoCL">
-                +Arma pesada<br>
-                +2 furtividade<br>
-                +Vantagem em tiro se a +7m<br>
-                -9 hp<br>
-                -Desvantagem em armas leves<br>
+                +1 magia tier 1, 1 tier 2, 1 tier 3<br>
+                +2 sab<br>
+                +2 int<br>
                 -2 dex<br>
-                -3 carisma<br></p>
+                -5 Hp<br>
+                -2 for<br>
+                -Desvantagem em armas de fogo<br>
+            </p>
+        </span>
+    </div>
+    <div class="tooltip2" id="Druida">
+        <p id="Druida">/ Habilidades</p>
+        <span class="tooltiptext2">
+            <p id="textoCLH">
+                § Habilidade nível 5:<br>
+                • Elementar (passiva): Se o jogador usar magias elementais ou naturais ele dá +1d8 de dano.<br>
+                § Habilidade nível 30:<br>
+                • Naturalidade (passiva): Magias de buff ou redução de dano elemental o buff é dobrado.<br>
+                § Habilidade nível 55:<br>
+                • Ordem natural das coisas (ativa): Quando usar 80 de mana magias elementais o jogador dá o triplo
+                de<br>
+                dano por 3 rounds.<br>
+
+            </p>
+        </span>
     </div>
     <br>
     <br>
     <br>
-    <div class="tooltip" id="Engenheiro">§ Engenheiro
+    <p id="Berserker">§ Berserker</p>
+    <div class="tooltip" id="Berserker">Status
         <span class="tooltiptext">
             <p id="textoCL">
-                +Pode construir máquinas para lutar (se tiver os recursos)<br>
-                +Pode produzir munição (se tiver recursos)<br>
-                +Pode melhorar armas(leves, médias, e pesadas)<br>
-                -10 Hp<br>
-                -40 mp<br>
-                -2 Def<br></p>
+                +25 Hp<br>
+                +4 for<br>
+                +2 de defesa natural<br>
+                -2 int<br>
+                -2 sab<br>
+                -Desvantagem em magias<br>
+            </p>
+        </span>
+    </div>
+    <div class="tooltip2" id="Berserker">
+        <p id="Berserker">/ Habilidades</p>
+        <span class="tooltiptext2">
+            <p id="textoCLH">
+                § Habilidade nível 5:
+                • Fúria (ativa): Permite você entrar em fúria e fazer ataques especiais como:<br>
+                • Avançada louca: Avance contra um inimigo.<br>
+                • Ataques doentes: Você pode fazer 1d6 de ataques físicos.<br>
+                • Defesa furiosa: O jogador leva 1/2 do dano.<br>
+                • Dura: 3 rounds.<br>
+                § Habilidade nível 30:<br>
+                • Avançada louca: Avance contra um inimigo e dê 1d8 de dano.<br>
+                • Ataques doentes: Você pode fazer 1d10 de ataques físicos.<br>
+                • Defesa furiosa: O jogador leva 1/3 do dano.<br>
+                • Dura: 5 rounds<br>
+                § Habilidade nível 50:<br>
+                • Avançada louca: Avance contra um inimigo e dê 1d12+1d4.<br>
+                • Ataques doentes: Você pode fazer 1d20 de ataques físicos.<br>
+                • Defesa furiosa: O jogador leva 1/4 do dano.<br>
+                • Dura 10 rounds.<br>
+            </p>
+        </span>
     </div>
     <br>
     <br>
     <br>
-    <div class="tooltip" id="Bardo">§ Bardo
+    <p id="Sniper">§ Sniper</p>
+    <div class="tooltip" id="Sniper">Status
         <span class="tooltiptext">
             <p id="textoCL">
-                +Pode tocar música de buffs de dano, resistência ou mágico<br>
-                +4 dex<br>
-                +80 mp<br>
+                +Sniper<br>
+                +2 dex<br>
+                +2 sab<br>
+                -9 hp<br>
+                -2 for<br>
+                -2 car<br>
+            </p>
+        </span>
+    </div>
+    <div class="tooltip2" id="Sniper">
+        <p id="Sniper">/ Habilidades</p>
+        <span class="tooltiptext2">
+            <p id="textoCLH">
+                § Habilidade nível 5:<br>
+                • Quanto mais, melhor (passiva): A cada 5m de distância aumenta 1d8 de dano.<br>
+                § Habilidade nível 30:<br>
+                • Mira implacável (passiva): A cada 10m que o jogador estiver ele ganha 1 vantagem.<br>
+                § Habilidade nível 50:<br>
+                • Head shot (passiva): Se estiver a mais de 12m o jogador dá 3x mais dano.<br>
+            </p>
+        </span>
+    </div>
+    <br>
+    <br>
+    <br>
+    <p id="Engenheiro">§ Engenheiro</p>
+    <div class="tooltip" id="Engenheiro">Status
+        <span class="tooltiptext">
+            <p id="textoCL">
+                +2 dex<br>
+                +2 int<br>
+                +1 bolsa de recursos<br>
                 -8 Hp<br>
-                -3 for<br>
-                -Desvantagem com armas de fogo médias e pesadas ou espadas médias ou pesadas<br></p>
+                -40 mp<br>
+                -2 Def <br>
+            </p>
+        </span>
+    </div>
+    <div class="tooltip2" id="Engenheiro">
+        <p id="Engenheiro">/ Habilidades</p>
+        <span class="tooltiptext2">
+            <p id="textoCLH">
+                § Habilidade nível 5:<br>
+                • Suporte (ativa): O jogador pode produzir munição se tiver recursos.
+                • Custo munição (comum): 1 ferros + 1 pólvora.<br>
+                (1d6 de dano)<br>
+                § Habilidade nível 30:<br>
+                • Upgrade (ativa): O jogador pode melhorar armas físicas ou de fogo dos aliados quando não estiver em
+                batalha e se tiver recursos.<br>
+                • Upgrade 1: 5 ferros + 2 aços. <br>
+                (+1d4 de dano)<br>
+                • Upgrade 2: 6 ferros + 4 aços + 2 pó estelar.<br>
+                (+1d8 de dano)<br>
+                • Upgrade 3: 7 ferros + 7 aços + 4 pó estelar + 2 platinas.<br>
+                (+1d12+1d4 de dano)<br>
+                • Upgrade 4: 9 ferros + 8 aços + 5 pó estelar + 3 platinas + 1 runa.<br>
+                (+1d20+1d4 de dano)<br>
+                • Upgrade 5: 12 ferros + 10 aços + 7 pó estelar + 6 platinas + 2 runas.<br>
+                (+1d20+1d12 de dano)<br>
+                § Habilidade nível 50:<br>
+                • Dano automático (ativa): O jogador pode fazer mini torretas.<br>
+                • Torretas:<br>
+                • 10hp;<br>
+                • 30 munições;<br>
+                • 1d6 de dano cada tiro;<br>
+                • Custo torreta (sem mira): 5 ferros+1 ouro+1 aço.<br>
+                • Custo torreta (com mira): 5 ferros+1 ouro+1 aço+1 vidro.<br>
+            </p>
+        </span>
     </div>
     <br>
     <br>
     <br>
-    <div class="tooltip" id="Healer">§ Healer/Curandeiro
+    <p id="Musicista">§ Musicista</p>
+    <div class="tooltip" id="Musicista">Status
         <span class="tooltiptext">
             <p id="textoCL">
-                +Vantagem em cura <br>
-                +Começa com cura no Tier 2<br>
-                +Joga um dado médio da cura a mais<br>
-                -Desvantagem em armas leves até pesadas e nas armas de fogo das médias até as pesadas<br>
+                +1 car<br>
+                +3 des<br>
+                +80 mp<br>
+                -9 Hp<br>
+                -4 for<br>
+                -Desvantagem com armas pesadas <br>
+            </p>
+        </span>
+    </div>
+    <div class="tooltip2" id="Musicista">
+        <p id="Musicista">/ Habilidades</p>
+        <span class="tooltiptext2">
+            <p id="textoCLH">
+                § Habilidade nível 1:<br>
+                • Notas abençoadas (passiva): O jogador pode tocar músicas que dão um efeito aos aliados.<br>
+                § Habilidade nível 25:<br>
+                • Som espetacular (passiva): O jogador passa a dar até 3 buffet por vez.<br>
+                § Habilidade nível 52:<br>
+                • Som eterno para a alma (ativa): O jogador faz um som que eterniza uma alma fazendo seus buffs terem o
+                <br>
+                triplo do efeito e dobro de duração (cooldown de 3 rounds).<br>
+            </p>
+        </span>
+    </div>
+    <br>
+    <br>
+    <br>
+    <p id="Curandeiro">§ Curandeiro</p>
+    <div class="tooltip" id="Curandeiro">Status
+        <span class="tooltiptext">
+            <p id="textoCL">
+                +2 sab<br>
+                +2 int<br>
+                +50 mp<br>
+                -4 for<br>
                 -6 hp<br>
-                -4 for<br></p>
+                -Desvantagem com armas pesadas <br>
+            </p>
+        </span>
+    </div>
+    <div class="tooltip2" id="Curandeiro">
+        <p id="Curandeiro">/ Habilidades</p>
+        <span class="tooltiptext2">
+            <p id="textoCLH">
+                § Habilidade nível 1:<br>
+                • Cura melhorada (passiva): O jogador com o efeito de cura duplicada.<br>
+                § Habilidade nível 30:<br>
+                • Cura superior (ativa): O jogador gasta 5mp por round (geral)para manter uma área de 5x5m que cura 2
+                de<br>
+                hp por round dos aliados.<br>
+                § Habilidade nível 50:<br>
+                • Não morra amigo (ativa): O jogador pode "reviver" um aliado (com vida cheia) uma vez por batalha.<br>
+            </p>
+        </span>
     </div>
     <br>
     <br>
     <br>
-    <div class="tooltip" id="Emo">§ Emo
+    <p id="Paladino">§ Paladino</p>
+    <div class="tooltip" id="Paladino">Status
         <span class="tooltiptext">
             <p id="textoCL">
-                +Emo<br>
-                -Emo <br></p>
+                +Magia sagrada<br>
+                +2 sab<br>
+                +2 for<br>
+                +12 hp<br>
+                -2 con<br>
+                -2 dex<br>
+                -Ser correto<br>
+                -Fraqueza a ataques mágicos <br>
+            </p>
+        </span>
+    </div>
+    <div class="tooltip2" id="Paladino">
+        <p id="Paladino">/ Habilidades</p>
+        <span class="tooltiptext2">
+            <p id="textoCLH">
+                § Habilidade nível 5:<br>
+                • Devolução santa (ativa): Reduz o dano que um aliado irá levar nos próximos 3 rounds (gerais).<br>
+                § Habilidade nível 30:<br>
+                • Luz santa (ativa): O jogador gasta 5 de mana por round (geral) para manter uma área de 6x6m que<br>
+                garante defesa ou mais dano aos aliados fazendo-os levar ou dar 5 de dano a menos/mais.<br>
+                § Habilidade nível 50:<br>
+                • Retribuição divina (ativa): O jogador pode gastar 30 de mana para acumular poder e dar 5d20 de dano.<br>
+            </p>
+        </span>
+    </div>
+    <br>
+    <br>
+    <br>
+    <p id="Pobre">§ Pobre</p>
+    <div class="tooltip" id="Pobre">Status
+        <span class="tooltiptext">
+            <p id="textoCL">
+                +10R$<br>
+                -10R$<br>
+            </p>
+        </span>
+    </div>
+    <div class="tooltip2" id="Pobre">
+        <p id="Pobre">/ Habilidades</p>
+        <span class="tooltiptext2">
+            <p id="textoCLH">
+                § Você não tem habilidade seu POBRE. <br>
+            </p>
+        </span>
     </div>
     <footer>
         <a href="index.html">Voltar para a pagina principal</a>

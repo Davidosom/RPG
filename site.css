@@ -101,6 +101,9 @@ footer {
 #back {
     background-color: black;
 }
+#magiah1{
+    color: rgba(108, 30, 172, 0.678);
+}
 
 @media only screen and (max-width: 1080px) {
     #texto4 {
@@ -638,65 +641,99 @@ footer {
 #ladrao {
     color: rgb(21, 21, 143);
     font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
 }
 
 #lutador {
     color: rgb(104, 29, 6);
     font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
 }
 
 #Atirador {
     color: rgb(11, 216, 216);
     font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
 }
 
 #Mago {
     color: rgb(164, 32, 204);
     font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
 }
 
 #Espadachim {
     color: rgb(99, 99, 99);
     font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
 }
 
 #Druida {
     color: rgb(4, 78, 23);
     font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
 }
 
 #Berserker {
     color: rgb(194, 17, 17);
     font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
 }
 
 #Sniper {
     color: rgb(194, 168, 17);
     font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
 }
 
 #Engenheiro {
     color: rgb(197, 107, 23);
     font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
 }
 
-#Bardo {
+#Musicista {
     color: rgb(142, 60, 150);
     font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
 }
 
-#Healer {
+#Curandeiro {
     color: rgb(36, 189, 15);
     font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+#Paladino{
+    color: rgb(231, 248, 156);
+    font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
 }
 
-#Emo {
-    color: rgb(94, 97, 97);
+#Pobre {
+    color: rgb(4, 19, 0);
     font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
 }
 
 #textoCL {
     color: rgb(1, 2, 2);
+}
+#textoCLH{
+    color: rgb(1, 2, 2);
+    margin: 1em;
 }
 
 #titleItens {

@@ -5,6 +5,7 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    
 }
     #titleItens1 {
         color: rgb(41, 32, 43);
@@ -13,7 +14,7 @@ body {
 
     .TextoItensMag {
         color: rgb(41, 32, 43);
-        font-size: 12px;
+        font-size: 8px;
     }
 
     #tabelaItens {

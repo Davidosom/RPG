@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+h1{
+    color: green;
+}
+#texto{
+    color: green;
+    font-size: 18px;
+}
+h2{
+    color: green;
+}
+#humanos{
+    color: rgb(233, 199, 204);
+    font-size: 18px;
+}
+#vampiro{
+    color: red;
+    font-size: 18px;
+}
+#elementais{
+    color: yellow;
+    font-size: 18px;
+}
+#infectados{
+    color: darkcyan;
+    font-size: 18px;
+}
+#Yamons{
+    color: rgb(14, 70, 143);
+    font-size: 18px;
+}
+#aqua{
+    color: aqua;
+    font-size: 18px;
+}
+#Anjos{
+    color: rgb(250, 241, 123);
+    font-size: 18px;
+}
+#Demonios{
+    color: rgb(212, 62, 16);
+    font-size: 18px;
+}
+#Bestas{
+    color: lightsalmon;
+    font-size: 18px;
+}
+#Fadas{
+    color: blanchedalmond;
+    font-size: 18px;
+}
+#draco{
+    color: rgb(187, 3, 3);
+    font-size: 18px;
+}
+#Druidas{
+    color: chartreuse;
+    font-size: 18px;
+}

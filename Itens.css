@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+body {
+    background-color: black;
+}
+    #titleItens1 {
+        color: rgb(41, 32, 43);
+    }
+@media only screen and (max-width: 1080px) {
+
+    .TextoItensMag {
+        color: rgb(41, 32, 43);
+        font-size: 8px;
+    }
+
+    #tabelaItens {
+        color: rgb(71, 35, 80);
+        font-size: 12px;
+        background-color: rgb(121, 121, 121);
+        padding: 0px;
+        line-height: 26px;
+    }
+
+    #tabelaItens2 {
+        color: rgb(71, 35, 80);
+        font-size: 12px;
+        background-color: rgb(121, 121, 121);
+        padding: 0px;
+        line-height: 26px;
+    }
+
+    #tabelaItens3 {
+        color: rgb(71, 35, 80);
+        font-size: 12px;
+        background-color: rgb(121, 121, 121);
+        padding: 0px;
+        line-height: 26px;
+    }
+}
+@media only screen and (min-width: 1081px) {
+
+    .TextoItensMag {
+        color: rgb(41, 32, 43);
+        font-size: 20px;
+    }
+
+    #tabelaItens {
+        color: rgb(71, 35, 80);
+        font-size: 20px;
+        background-color: rgb(121, 121, 121);
+        padding: 0px;
+        line-height: 34px;
+    }
+
+    #tabelaItens2 {
+        color: rgb(71, 35, 80);
+        font-size: 20px;
+        background-color: rgb(121, 121, 121);
+        padding: 0px;
+        line-height: 34px;
+    }
+
+    #tabelaItens3 {
+        color: rgb(71, 35, 80);
+        font-size: 20px;
+        background-color: rgb(121, 121, 121);
+        padding: 0px;
+        line-height: 34px;
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    background-color: black;
+    padding: 0px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(71, 35, 80);
+}
+footer{
+    text-align: center;
+}

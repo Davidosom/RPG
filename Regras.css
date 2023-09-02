@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+}
+
+#titleR1 {
+    color: rgb(188, 190, 33);
+}
+
+#textoR1 {
+    color: rgb(188, 190, 33);
+    font-size: 20px;
+}
+
+#titleR2 {
+    color: rgb(188, 190, 33);
+}
+
+#listaR1 {
+    color: rgb(188, 190, 33);
+    font-size: 18px;
+}
+footer{
+    text-align: center;
+}

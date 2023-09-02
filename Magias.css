@@ -1,0 +1,169 @@
+#back {
+    background-color: black;
+}
+#magiah1{
+    color: rgba(108, 30, 172, 0.678);
+}
+body {
+    background-color: black;
+}
+@media only screen and (max-width: 1080px) {
+    #texto4 {
+        color: rgba(108, 30, 172, 0.678);
+        font-size: 18px;
+    }
+
+    #magia {
+        color: rgba(108, 30, 172, 0.678);
+        font-size: 12px;
+    }
+
+    #title2 {
+        color: rgba(0, 255, 255, 0.678);
+    }
+
+    #texto2 {
+        color: rgba(214, 143, 12, 0.678);
+        font-size: 18px;
+    }
+
+    #texto3 {
+        color: rgba(214, 143, 12, 0.678);
+        font-size: 12px;
+    }
+
+    #qwe {
+        color: rgb(228, 59, 17);
+        font-size: 18px;
+    }
+
+    #qwer {
+        color: rgb(228, 59, 17);
+        font-size: 12px;
+    }
+
+    #magias {
+        color: rgba(0, 255, 255, 0.678);
+
+    }
+
+    #elementais {
+        width: min-content 16px;
+        width: max-content 18px;
+        color: rgba(0, 255, 255, 0.678);
+    }
+
+    #ele {
+        color: rgba(0, 255, 255, 0.678);
+        font-size: 12px;
+    }
+
+    #naoele {
+        color: rgba(135, 50, 206, 0.801);
+    }
+
+    #naoelemen {
+        color: rgba(135, 50, 206, 0.801);
+        font-size: 12px;
+    }
+
+    #invoca {
+        color: rgba(212, 200, 31, 0.849);
+    }
+
+    #inv {
+        color: rgba(212, 200, 31, 0.849);
+        font-size: 12px;
+    }
+
+    #title {
+        color: rgba(81, 255, 0, 0.418);
+    }
+
+    #aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa {
+        color: rgba(81, 255, 0, 0.418);
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    #texto4 {
+        color: rgba(108, 30, 172, 0.678);
+        font-size: 25px;
+    }
+
+    #magia {
+        color: rgba(108, 30, 172, 0.678);
+        font-size: 18px;
+    }
+
+    #title2 {
+        color: rgba(0, 255, 255, 0.678);
+    }
+
+    #texto2 {
+        color: rgba(214, 143, 12, 0.678);
+        font-size: 25px;
+    }
+
+    #texto3 {
+        color: rgba(214, 143, 12, 0.678);
+        font-size: 18px;
+    }
+
+    #qwe {
+        color: rgb(228, 59, 17);
+        font-size: 25px;
+    }
+
+    #qwer {
+        color: rgb(228, 59, 17);
+        font-size: 18px;
+    }
+
+    #magias {
+        color: rgba(0, 255, 255, 0.678);
+
+    }
+
+    #elementais {
+        width: min-content 16px;
+        width: max-content 18px;
+        color: rgba(0, 255, 255, 0.678);
+    }
+
+    #ele {
+        color: rgba(0, 255, 255, 0.678);
+        font-size: 18px;
+    }
+
+    #naoele {
+        color: rgba(135, 50, 206, 0.801);
+    }
+
+    #naoelemen {
+        color: rgba(135, 50, 206, 0.801);
+        font-size: 18px;
+    }
+
+    #invoca {
+        color: rgba(212, 200, 31, 0.849);
+    }
+
+    #inv {
+        color: rgba(212, 200, 31, 0.849);
+        font-size: 18px;
+    }
+
+    #title {
+        color: rgba(81, 255, 0, 0.418);
+    }
+
+    #aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa {
+        color: rgba(81, 255, 0, 0.418);
+        font-size: 18px;
+    }
+}
+footer{
+    text-align: center;
+}

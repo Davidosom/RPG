@@ -1,0 +1,124 @@
+#titleCombate1 {
+    color: rgb(230, 17, 17);
+}
+
+#textoCombate1 {
+    color: rgb(230, 17, 17);
+    font-size: 23px;
+}
+
+#ulCombate {
+    color: rgb(230, 17, 17);
+    font-size: 20px
+}
+
+#EstilosDeCombate {
+    color: rgb(230, 17, 17);
+}
+
+#textoCombate2 {
+    color: rgb(230, 17, 17);
+    font-size: 20px;
+}
+
+#karatêsimples {
+    color: rgb(194, 201, 206);
+}
+
+#Listakaratesimples {
+    color: rgb(194, 201, 206);
+    font-size: 18px;
+}
+
+#karatêmedio {
+    color: rgb(119, 115, 115);
+}
+
+#Listakaratemedio {
+    color: rgb(119, 115, 115);
+    font-size: 18px;
+}
+
+#Karatêavançado {
+    color: rgb(54, 54, 54);
+}
+
+#Listakarateavançado {
+    color: rgb(54, 54, 54);
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#KungFuSimples {
+    color: rgb(223, 223, 113);
+}
+
+#ListaKungFuSimples {
+    color: rgb(223, 223, 113);
+    font-size: 18px;
+}
+
+#KungFuMédio {
+    color: rgb(141, 141, 24);
+
+}
+
+#ListaKungFuMédio {
+    color: rgb(141, 141, 24);
+    font-size: 18px;
+}
+body {
+    background-color: black;
+}
+#KungFuAvançado {
+    color: rgb(221, 221, 4);
+}
+
+#ListaKungFuAvançado {
+    color: rgb(221, 221, 4);
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Taekwondo {
+    color: rgb(216, 62, 62);
+}
+
+#ListaTaekwondo {
+    color: rgb(216, 62, 62);
+    font-size: 18px;
+}
+
+#Kickboxing {
+    color: rgb(23, 97, 167);
+}
+
+#ListaKickboxing {
+    color: rgb(23, 97, 167);
+    font-size: 18px;
+}
+
+#Boxing {
+    color: rgb(240, 12, 12);
+}
+
+#ListaBoxing {
+    color: rgb(240, 12, 12);
+    font-size: 18px;
+}
+footer{
+    text-align: center;
+}

@@ -1,0 +1,118 @@
+#titleClasses1 {
+    color: rgb(17, 40, 138);
+}
+
+#textoClasses1 {
+    color: rgb(17, 40, 138);
+    font-size: 23px;
+}
+
+#ladrao {
+    color: rgb(21, 21, 143);
+    font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+
+#lutador {
+    color: rgb(104, 29, 6);
+    font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+
+#Atirador {
+    color: rgb(11, 216, 216);
+    font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+
+#Mago {
+    color: rgb(164, 32, 204);
+    font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+
+#Espadachim {
+    color: rgb(99, 99, 99);
+    font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+
+#Druida {
+    color: rgb(4, 78, 23);
+    font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+
+#Berserker {
+    color: rgb(194, 17, 17);
+    font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+
+#Sniper {
+    color: rgb(194, 168, 17);
+    font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+
+#Engenheiro {
+    color: rgb(197, 107, 23);
+    font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+
+#Musicista {
+    color: rgb(142, 60, 150);
+    font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+
+#Curandeiro {
+    color: rgb(36, 189, 15);
+    font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+#Paladino{
+    color: rgb(231, 248, 156);
+    font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+
+#Pobre {
+    color: rgb(4, 19, 0);
+    font-size: 20px;
+    margin-bottom: 0px ;
+    margin-top: 0px;
+}
+body {
+    background-color: black;
+}
+#textoCL {
+    color: rgb(1, 2, 2);
+}
+#textoCLH{
+    color: rgb(1, 2, 2);
+    margin: 1em;
+}
+#titleItens {
+    color: rgb(41, 32, 43);
+}
+
+.TextoItensMag {
+    color: rgb(41, 32, 43);
+}
+footer{
+    text-align: center;
+}

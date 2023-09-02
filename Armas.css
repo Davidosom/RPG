@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+
+#titulopagina {
+    color: rgb(189, 20, 8);
+}
+
+#titleArmas2 {
+    color: rgb(189, 20, 8);
+}
+
+#titleArmas3 {
+    color: rgb(189, 20, 8);
+}
+
+#titleArmasCorpo1 {
+    color: rgb(189, 20, 8);
+}
+
+#armas-corpo-a-corpo {
+    color: rgb(189, 20, 8);
+}
+
+@media only screen and (min-width: 1080px) {
+    #textoarmas1 {
+        color: rgb(189, 20, 8);
+        font-size: 18px;
+    }
+
+    #TextoArmas2 {
+        color: rgb(189, 20, 8);
+        font-size: 18px;
+    }
+
+    #TextoArmas3 {
+        color: rgb(189, 20, 8);
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #textoarmas1 {
+        color: rgb(189, 20, 8);
+        font-size: 14px;
+    }
+
+    #TextoArmas2 {
+        color: rgb(189, 20, 8);
+        font-size: 14px;
+    }
+
+    #TextoArmas3 {
+        color: rgb(189, 20, 8);
+        font-size: 14px;
+    }
+}
+footer{
+    text-align: center;
+}

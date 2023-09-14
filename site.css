@@ -49,6 +49,12 @@ footer {
     font-family: serif;
     font-size: 17px;
 }
+#linkHabilidades{
+    color: rgb(12, 170, 12);
+    font-style: italic;
+    font-family: serif;
+    font-size: 17px; 
+}
 
 #linkregras {
     color: rgb(188, 190, 33);
